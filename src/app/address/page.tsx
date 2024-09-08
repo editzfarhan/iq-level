@@ -2,20 +2,20 @@ import React from 'react'
 import Image from 'next/image'
 const page = () => {
   return (
-    <div><figure className="md:flex bg-blue-400 circle-xl p-8 md:p-0 dark:bg-yellow-800">
-    <Image className="w-24 h-24 md:w-48 md:h-auto md:circle-none circle-full mx-auto" src="/h.jpg" alt="" width="384" height="512"/>
+    <div><figure className="md:flex bg-purple-300 circle-xl p-8 md:p-0 dark:bg-yellow-800">
+    <Image className="w-24 h-24 md:w-48 md:h-auto md:circle-none circle-full mx-auto" src="/r.jpg" alt="" width="384" height="512"/>
     <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
       <blockquote>
         <p className="text-lg font-medium">
-        My home is about 3marla and consist of 4 story.There are 6 rooms and 2 kichan in it.tThere is a Gov.t school in the front of my house.
+        House no.24,Muslim colony ,Rahim yar Khan,Zip code 64200,Punjab.
         </p>
       </blockquote>
       <figcaption className="font-medium">
         <div className="text-sky-500 dark:text-sky-400">
-          Home
+          Punjab
         </div>
         <div className="text-slate-700 dark:text-slate-500">
-          MUslim colony, RYK
+          City, RYK
         </div>
       </figcaption>
     </div>
